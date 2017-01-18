@@ -16,7 +16,8 @@ module.exports = {
 	    'import/no-unresolved': 0,
 	    'import/no-extraneous-dependencies': 0,
 	    'comma-dangle': 0,
-	    'no-underscore-dangle': 0
+	    'no-underscore-dangle': 0,
+	    "react/jsx-filename-extension": [0, { "extensions": [".js"] }]
 	},
 	"env": {
 	    "es6": true
